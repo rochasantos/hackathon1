@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&family=Quicksand:wght@400;500;600;700&family=Lato:wght@400;700;900&display=swap');
+
+.duvidas {
+    padding: 16px;
+    margin-top: 140px;
+    font-family: 'Lato', sans-serif;
+}
+
+.duvidas__intro {
+    max-width: 700px;
+    margin-bottom: 70px;
+}
+
+.duvidas__intro h1 {
+    font-size: 2.4em;
+    color: #3d3d3d;
+    margin: 0;
+}
+
+.duvidas__intro h1::after {
+    content: url(../img/icones/ajuda.svg);
+    position: relative;
+    top: -20px;
+}
+
+.duvidas__intro p {
+    font-weight: 400;
+}
+
+.duvidas__conteudo {
+    display: grid;
+    gap: 34px 24px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    margin: 30px 0;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.duvida-texto {
+    font-size: .8rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.contato {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    border: solid 1px #c6c6c6;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.contato__conteudo {
+    display: flex;
+    gap: 16px;
+
+}

@@ -18,8 +18,8 @@
       <nav class="cabecalho__links">
           <a class="cabecalho__links__link" href="#">Principal</a>
           <a class="cabecalho__links__link" href="#">Sobre</a>
-          <a class="cabecalho__links__link" href="#">Depoimentos</a>
-          <a class="cabecalho__links__link" href="#">Dúvidas (FAQ)</a>
+          <a class="cabecalho__links__link" href="src/telas/depoimento.html">Depoimentos</a>
+          <a class="cabecalho__links__link" href="src/telas/faq.html">Dúvidas (FAQ)</a>
           <a class="cabecalho__links__link" href="#">Contate-nos</a>  
       </nav>
     </div>    
@@ -27,41 +27,72 @@
   </header>
 
   <main class="principal">
-    <section class="secao principal__apresentacao">
+    <section class="secao principal__conteudo">
       <p class="texto-grande">APRENDA A PROGRAMAR DE FORMA TOTALMENTE GRATUITA EM UM AMBIENTE EAD INTERATIVO</p>
       
-      <img src="./src/assets/img/mockups/pessoas-diferentes.png" alt="Imagem principal do Reprograme-se" class="">
-      
-      <p class="texto-grande">CHEGOU A HORA <br><span class="texto-medio">DE REPROGRAMAR O SEU FUTURO!</span></p>
-
-      <div class="botao-container">
-        <a class="botao-texto" href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se">Inscreva-se</a>
+      <img src="./src/assets/img/mockups/pessoas-diferentes.png" alt="Imagem principal do Reprograme-se" class="principal__conteudo__img">
+      <div class="titulo-subtitulo">
+        <p class="texto-grande">CHEGOU A HORA</p> 
+        <p class="texto-medio">DE REPROGRAMAR O SEU FUTURO!</p>
       </div>
+      <a class="botao bg-terciaria" href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se">Inscreva-se</a>
+    
+      <div class="secao artigos-container">
+        <article class="artigo">
+          <h3 class="titulo-artigo">#Jovens e Adultos</h3>
+          <h4 class="subtitulo-artigo">Torne-se um profissional de TI e faça parte do mercado que mais emprega no mundo!</h4>
+          <img class="artigo-imagem" src="./src/assets/img/mockups/Cabelos-cacheados-apontando-logo.png" alt="Imagem de uma jovem cabelos cacheados apontando para o logo">
+          <div>
+          <p class="texto-artigo">São <strong class="texto-forte">1.140 vagas</strong>, ofertadas na primeira etapa e <strong>mais 1.140 vagas</strong> na segunda oferta do programa. Tem o foco em jovens e adultos, sem limite de idade, que já passaram pelo ensino médio, ou estejam cursando o último ano do ensino médio, que queiram mudar de área em busca de melhores oportunidades.</p>
+          <p class="texto-artigo">Voltado para jovens e adultos, o programa tem o objetivo de capacitar você em programação de computadores e desenvolvimento de websites.</p>
+          </div>
+        </article>
+        <article class="artigo jovens-e-adultos">
+          <h3 class="titulo-artigo">#Oportunidades</h3>
+          <h4 class="subtitulo-artigo">O maior e mais bem estruturado programa de formação de programadores de software do Estado</h4>
+          <img class="artigo-imagem" src="./src/assets/img/mockups/homem-camisa.png" alt="Imagem de uma jovem cabelos cacheados apontando para o logo">
+          <div>
+            <p class="texto-artigo">Um mundo de oportunidades nas empresas de tecnologia do Espírito Santo, que oferecem uma grande demanda por profissionais com competências em desenvolvimento de software.</p>
+            <p class="texto-artigo">Você conta com um acompanhamento e orientação de forma intensiva de professores, tutores e monitores na construção da sua aprendizagem.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="titulo-subtitulo bg-primaria">
+        <p class="texto-grande txt-braca">NÃO PRECISA EXPERIÊNCIA</p> 
+        <p class="texto-medio txt-braca">A NOSSA EQUIPE VAI AJUDAR VOCÊ NESTA FORMAÇÃO!</p>
+      </div>
+
+      <div class="como-funciona">
+        <h3 class="texto-grande">#Como funciona?</h3>
+        <img src="./src/assets/img/mockups/Jovens.png" alt="Imagem de jovem com a camisa do Reprograme-se">
+        <p class="subtitulo">SÃO 16 POLOS ESPALHADOS PELO ESTADO</p>
+        <p class="texto-artigo">O polo é um espaço de apoio para os seus estudos. Basta se dirigir a um mais próximo de você.</p>
+        <p class="texto-artigo">Com itinerário formativo ágil, flexível, orientado por projetos práticos reais e integrado com o mundo do trabalho, o participante tem a possibilidade de ingressar em estágios nas empresas de tecnologia do Estado.</p>
+        <p class="texto-artigo">Uma metodologia preparada especialmente para a capacitação em um curto espaço de tempo, por profissionais experientes na modalidade EAD.</p>
+      </div>
+
+      <div class="titulo-subtitulo">
+        <p class="texto-grande">INSCREVA-SE</p> 
+        <p class="texto-medio">E GARANTA SEU GARANTA!</p>
+      </div>
+
+      <a class="botao bg-terciaria" href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se">Inscreva-se</a>
+
+      <div class="realizacao-container">
+        <h4 class="titulo">Realização</h4>
+        <div class="realizacao-container__logo">
+          <img src="./src/assets/img/logo-action/vertical-cor.png" alt="Logotipo da Action">
+          <img src="./src/assets/img/logo-ifes/ifes-vertical-cor.png" alt="Logotipo do Ifes">
+        </div>
+      </div>
+      
     </section>
-    <section class="secao">
-      <article class="artigo jovens-e-adultos">
-        <h3 class="titulo-artigo">#Jovens e Adultos</h3>
-        <h4 class="subtitulo-artigo">Torne-se um profissional de TI e faça parte do mercado que mais emprega no mundo!</h4>
-        <img class="artigo-imagem" src="./src/assets/img/mockups/Cabelos-cacheados-apontando-logo.png" alt="Imagem de uma jovem cabelos cacheados apontando para o logo">
-        <div>
-        <p class="texto-artigo">São <strong class="texto-forte">1.140 vagas</strong>, ofertadas na primeira etapa e <strong>mais 1.140 vagas</strong> na segunda oferta do programa. Tem o foco em jovens e adultos, sem limite de idade, que já passaram pelo ensino médio, ou estejam cursando o último ano do ensino médio, que queiram mudar de área em busca de melhores oportunidades.</p>
-        <p class="texto-artigo">Voltado para jovens e adultos, o programa tem o objetivo de capacitar você em programação de computadores e desenvolvimento de websites.</p>
-        </div>
-      </article>
-      <article class="artigo jovens-e-adultos">
-        <h3 class="titulo-artigo">#Oportunidades</h3>
-        <h4 class="subtitulo-artigo">O maior e mais bem estruturado programa de formação de programadores de software do Estado</h4>
-        <img class="artigo-imagem" src="./src/assets/img/mockups/homem-camisa.png" alt="Imagem de uma jovem cabelos cacheados apontando para o logo">
-        <div>
-          <p class="texto-artigo">Um mundo de oportunidades nas empresas de tecnologia do Espírito Santo, que oferecem uma grande demanda por profissionais com competências em desenvolvimento de software.</p>
-          <p class="texto-artigo">Você conta com um acompanhamento e orientação de forma intensiva de professores, tutores e monitores na construção da sua aprendizagem.</p>
-        </div>
-      </article>
-    </section>   
+    
   </main>
   <footer>
     <div class="rodape">
-      <p>ladjflkjadlf jakldsjfjal djfklajdkfj aldj fkajsd </p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam sequi sapiente ipsa! Assumenda nesciunt adipisci architecto obcaecati nulla, odio neque quasi non dignissimos debitis, corporis reprehenderit explicabo in! Sed, iure!</p>
     </div>
   </footer>
   <script src="/src/assets/js/script.js"></script>
